@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 9, 2024, 9:33:09 AM
+    Author     : Sree Isu
+*/
+
+*{
+    margin:0;
+    padding:0;
+    font-family:'poppins',sans-serif ;
+    box-sizing: border-box;
+}
+body {
+  background-image: url("./images/appication.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+.container
+{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;/*images column*/
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+        
+}
+.logo{
+    width:140px;
+}
+nav ul li
+{
+    display: inline-block;/*display li horizontally */
+    list-style:none; /*remove bulletins or any list symbol */
+    margin: 10px 20px;/*display top bottom right and left */
+}
+nav ul li a{
+    color:black;
+    text-decoration: none;/*removes the underline*/
+    font-size: 18px;
+}
+.header-text 
+{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header-text h1 span
+{
+   color: red;
+}
+#about{
+    padding: 80px 0;
+    color:black;
+}
+.aboutme p{
+    font-family:'poppins',sans-serif ;
+    font-size: 20px;
+}
+.first img{
+   display: inline-block;
+   margin-right: 50px;
+   margin-bottom: 40px;
+   border: 2px solid transparent;
+   transition: transform 0.3s ease;
+}
+.first img:hover,
+.first img:active{
+    transform: scale(1.1)
+}
+.education table, th, td {
+ border:3px solid black;
+ border-collapse: collapse;
+ padding: 5px;
+ border-spacing: 15px;
+ text-align: center;
+}
+
+.skills ul li{
+   list-style:none;
+}
+.cv p a button{
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+}
+.container i,
+    .container h3,
+    .container a {
+        margin-right: 10px; 
+        vertical-align: middle;
+        text-decoration: none;
+    }
